@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Cenere_Mouse")(type "KiCad")(uri "${KIPRJMOD}/Cenere_Mouse.pretty")(options "")(descr ""))
+)

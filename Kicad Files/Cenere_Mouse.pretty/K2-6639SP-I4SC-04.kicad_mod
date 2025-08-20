@@ -1,0 +1,232 @@
+(footprint "K2-6639SP-I4SC-04"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Tactile Switch SMD 6x6x8mm ")
+	(tags "Tactile Switch SMD 6x6x8mm ")
+	(property "Reference" "SW**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ec2f9545-adbc-488f-964f-9c910740ddce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "K2-6639SP-I4SC-04"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6116e390-f467-40e0-8db5-37638e53da5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1bb1d3c5-5269-4fdc-b4a4-f2a0e676562b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SMD 6x6x8mm SW-SMD_4P"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36168a3b-7040-4bcc-97b3-c5d1c6761bbf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3 -3)
+		(end 3 -3)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db41e605-4328-46fe-8f28-c7fc3907586e")
+	)
+	(fp_line
+		(start -3 3)
+		(end -3 -3)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0b043618-ddcf-4233-807c-61cbcd5fd787")
+	)
+	(fp_line
+		(start 3 -3)
+		(end 3 3)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d968b44-96da-4580-8494-8383d573a805")
+	)
+	(fp_line
+		(start 3 3)
+		(end -3 3)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff7923a5-fdca-421c-b5ac-4d467149436e")
+	)
+	(fp_circle
+		(center -2.159 -2.159)
+		(end -1.778 -2.159)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3c1f4e5c-cec9-42ed-9ffd-8eed51ed2ef7")
+	)
+	(fp_circle
+		(center -2.159 2.159)
+		(end -1.778 2.159)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "58eab5f1-f7f9-43fe-9a2e-a12dc4e046ec")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.27 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8bba9d61-69be-4bd6-8f79-1254c19bc954")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.8 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5161aca0-9675-4310-b664-559306bb27af")
+	)
+	(fp_circle
+		(center 2.159 -2.159)
+		(end 2.54 -2.159)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "af228bd0-cd56-42eb-9c05-c3cd51be4735")
+	)
+	(fp_circle
+		(center 2.159 2.159)
+		(end 2.54 2.159)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b41e6586-90f2-4430-baa3-f4ddd9af60ce")
+	)
+	(fp_rect
+		(start -3.3 -3.15)
+		(end 3.3 3.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e995f0a4-69d5-47a2-aff5-7da3d4a7d73e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ead53aa0-ad38-4246-8e4e-26bf571c5351")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -4.4 -1.95)
+		(size 2.2 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "cc80abb2-92e5-4883-8c25-8288278abcd9")
+	)
+	(pad "2" smd roundrect
+		(at -4.4 1.95)
+		(size 2.2 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "e9ec747d-8ea8-47a3-bca5-33ef13adc992")
+	)
+	(pad "3" smd roundrect
+		(at 4.4 -1.95)
+		(size 2.2 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "6f91945e-44b1-4268-95db-57ee2fa51507")
+	)
+	(pad "4" smd roundrect
+		(at 4.4 1.95)
+		(size 2.2 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "f9170d55-6e13-4579-a967-53b413388e60")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Extra Libs/Tactal Switch - SMD 6x6x8.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

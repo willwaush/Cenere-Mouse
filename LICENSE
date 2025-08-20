@@ -1,0 +1,43 @@
+# LICENSE
+
+## Software (Code)
+
+The source code in this repository is licensed under the **GNU General Public License v3.0 (GPL-3.0)**, with an additional **Non-Commercial Use Exception**:
+
+> You may use, modify, and redistribute the source code for personal, educational, or research purposes, provided that you give appropriate credit to the original author.  
+> Commercial use, including incorporation into commercial products, services, or for-profit activities, is strictly prohibited without prior written permission from the author.
+
+The full text of the GPL-3.0 license can be found in the file [`LICENSES/GPL-3.0.txt`](LICENSES/GPL-3.0.txt).
+
+---
+
+## Hardware (Schematics, PCB Layouts, Documentation)
+
+The hardware design files (including KiCad schematics, PCB layouts, and related documentation) are licensed under the:
+
+**Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)**
+
+This means:  
+- You are free to share (copy, redistribute) and adapt (remix, transform, build upon) the hardware files.  
+- You must give appropriate credit to the original author.  
+- Commercial use is prohibited without prior written permission.  
+
+The full text of the CC BY-NC 4.0 license can be found in the file [`LICENSES/CC-BY-NC-4.0.txt`](LICENSES/CC-BY-NC-4.0.txt).
+
+---
+
+## Attribution Requirement
+
+If you use this project (code or hardware) in your own work, you must credit:
+
+**© [Your Name or Handle] – [Year]**  
+Link: [GitHub Repository URL]
+
+Example attribution:  
+> “Based on the open-source design/code by [Your Name], available at [GitHub Repo URL].”
+
+---
+
+## Commercial Licensing
+
+For commercial use of this project (software or hardware), please contact the author to negotiate a separate license.

@@ -1,0 +1,190 @@
+(footprint "SW_Tactile_SPST_ Kailh_6x6x7.3mm_Mute_Silent"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Footprint_Kailh, Tactile, Silent, Mute, Switch, SPST")
+	(tags "Kailh, Tactile, Silent, Mute, Switch, SPST")
+	(property "Reference" "SW1"
+		(at 0 -4.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "95298f5c-1134-4b0a-bdf8-b2ad55409b8b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CMI627301D60"
+		(at 0.05 4.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6f825799-cec5-48ce-b3fb-e0226538fbe0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0c1db0b-f6c8-4ebb-abb2-5b46d825c360")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3df2e094-bbff-4522-8b3e-cc3bd5df9d58")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Kailh"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "77e78bb3-0b38-4902-bec0-7e11d135584c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files)
+	(fp_rect
+		(start -3.1 -3.1)
+		(end 3.1 3.1)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "cb26a4da-b832-4b3b-a342-17d98079a851")
+	)
+	(fp_circle
+		(center -2 -2)
+		(end -1.375 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c1a7e9d0-4313-464b-a24b-2e7d506ae1fa")
+	)
+	(fp_circle
+		(center -2 2)
+		(end -1.375 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fdfa7546-cd1a-42e3-a257-d17c9b99e0ed")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.5 0)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9479e4f6-99bd-4c65-b0a0-aa885d5df055")
+	)
+	(fp_circle
+		(center 2 -2)
+		(end 2.625 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8e04f0fb-0092-4f17-884f-11ecde3b44b1")
+	)
+	(fp_circle
+		(center 2 2)
+		(end 2.625 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1cb9f2f2-1e6c-4b87-9eea-b9b713955945")
+	)
+	(fp_rect
+		(start -3.3 -3.3)
+		(end 3.3 3.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9b62b23e-46bd-401a-b743-58418c2a0df1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.905 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bb6a7aa3-a242-4a11-b667-21cf72e37675")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 2.5 180)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.3181818182)
+		(uuid "12fb3ceb-384e-48cc-8d84-a4b5496fdd52")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 -2.5 180)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.3181818182)
+		(uuid "5f2c752d-5f27-4ffd-9ab1-940d8e8650c0")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Extra Libs/microSwitch_Kailh_6x6x7.3 (MI627301D07).step"
+		(offset
+			(xyz 0 0.025 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)

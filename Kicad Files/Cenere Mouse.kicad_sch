@@ -1,0 +1,145 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3bfa0517-de4b-49cb-a17a-4be75d603dbf")
+	(paper "A4")
+	(title_block
+		(title "Cenere Mouse")
+		(rev "1")
+		(company "Triungulo Lab")
+	)
+	(lib_symbols)
+	(sheet
+		(at 38.1 40.64)
+		(size 21.59 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "34ca5ee1-40ec-4185-b493-809855f9992d")
+		(property "Sheetname" "Power_managment"
+			(at 38.1 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_managment.kicad_sch"
+			(at 38.1 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Cenere Mouse"
+				(path "/3bfa0517-de4b-49cb-a17a-4be75d603dbf"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 77.47 40.64)
+		(size 21.59 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "be5c28d5-8a0d-4f18-9b16-40e0845ea800")
+		(property "Sheetname" "Microcontroller"
+			(at 77.47 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Microcontroller.kicad_sch"
+			(at 77.47 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Cenere Mouse"
+				(path "/3bfa0517-de4b-49cb-a17a-4be75d603dbf"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 40.64)
+		(size 21.59 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d017e985-742b-487f-b429-2b7a55f07635")
+		(property "Sheetname" "Misc"
+			(at 114.3 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Misc.kicad_sch"
+			(at 114.3 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Cenere Mouse"
+				(path "/3bfa0517-de4b-49cb-a17a-4be75d603dbf"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

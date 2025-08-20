@@ -1,0 +1,360 @@
+(footprint "SW_Tactile_SPST_ OMRONKailh_6x6x7.3mm_Mute_Silent"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "OMRONFootprint_Kailh, Tactile, Silent, Mute, Switch, SPST")
+	(tags "Kailh, Tactile, Silent, Mute, Switch, SPST")
+	(property "Reference" "SW1"
+		(at 0 -7.493 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d4283b2d-2844-4abb-b1ec-ea902dbc81a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CMI627301D60"
+		(at 0.127 7.62 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "18203aca-8ab4-4ece-a4c9-1c9404d2838c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4cc38148-74cc-4c5f-b080-7bf2209d0494")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6eee1874-1d8b-44a7-b0e7-0ea7b397a4ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Kailh"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "77e78bb3-0b38-4902-bec0-7e11d135584c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files)
+	(fp_line
+		(start -3.1 -6.6)
+		(end -3.1 6.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f6fc838-5d85-4f5a-b68e-5f993ad0be92")
+	)
+	(fp_line
+		(start -3.1 -6.6)
+		(end 3.1 -6.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "737db236-9d0f-44d5-814c-acb8962fdcae")
+	)
+	(fp_line
+		(start -3.1 6.6)
+		(end 3.1 6.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f56a1b47-2718-4cd2-a7b8-c21883f8ec1f")
+	)
+	(fp_line
+		(start -1.4 -1.35)
+		(end -1.4 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "323ab1bc-00d4-46bc-8e94-22a75a016e07")
+	)
+	(fp_line
+		(start 0 -2.5)
+		(end -1.4 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9d7a4bd7-b328-47b0-842d-4e1527f74f68")
+	)
+	(fp_line
+		(start 0 -2.5)
+		(end 1.15 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0044b20f-8846-489a-898e-b24e2ccaeb4c")
+	)
+	(fp_line
+		(start 0 -1.95)
+		(end -0.4 -1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "845426a8-394b-4862-ae40-8686eb3877e0")
+	)
+	(fp_line
+		(start 0 -1.95)
+		(end 0.4 -1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "782d0487-1f2b-47e9-87f0-add8f09e91c3")
+	)
+	(fp_line
+		(start 0 -1.35)
+		(end -1.4 -1.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bf978f7a-d9cc-47ef-afd7-10489dfe11cd")
+	)
+	(fp_line
+		(start 0 -1.35)
+		(end 0 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "395ef585-4886-4eea-a142-9511b5147e7e")
+	)
+	(fp_line
+		(start 0 -1.35)
+		(end 1.2 -1.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cd0b4068-14a8-42db-bf27-28bdfd23fde7")
+	)
+	(fp_line
+		(start 1.4 -2.5)
+		(end 1.15 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e51c52ff-800e-455c-95a4-d433ede9a041")
+	)
+	(fp_line
+		(start 1.4 -1.35)
+		(end 1.2 -1.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "97398622-f3eb-4b1f-b4b6-da6b48e6f883")
+	)
+	(fp_line
+		(start 1.4 -1.35)
+		(end 1.4 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "93bf8d6a-0bc1-4c2e-9343-736adbe66e60")
+	)
+	(fp_line
+		(start 3.1 -6.6)
+		(end 3.1 6.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f676f85-8df7-4d17-8990-1df4eb2f59cb")
+	)
+	(fp_line
+		(start -3.15 -6.65)
+		(end -3.15 6.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f7e8f74a-8693-4eef-92d2-a0b7b6bd98ff")
+	)
+	(fp_line
+		(start -3.15 -6.65)
+		(end 3.15 -6.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "51c91dfb-17e7-4661-b608-98536dfaaed5")
+	)
+	(fp_line
+		(start -3.15 6.65)
+		(end 3.15 6.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ea8dea2d-59ce-40b3-a511-1d68b2013b06")
+	)
+	(fp_line
+		(start 3.15 -6.65)
+		(end 3.15 6.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6e215830-7fa2-44a3-9934-2f65d6f4c416")
+	)
+	(fp_line
+		(start -2.9 -6.4)
+		(end 2.9 -6.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9c025a14-d9b0-4449-b7ca-7068662c5422")
+	)
+	(fp_line
+		(start -2.9 6.4)
+		(end -2.9 -6.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d9e72809-9217-4b82-8fe1-4c9d8b653ef9")
+	)
+	(fp_line
+		(start 2.9 -6.4)
+		(end 2.9 6.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "425132fa-e21c-411f-985d-85a81511fa4a")
+	)
+	(fp_line
+		(start 2.9 6.4)
+		(end -2.9 6.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8e6eee99-2def-4deb-9b47-a0658c7c53fe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.905 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bb6a7aa3-a242-4a11-b667-21cf72e37675")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0 180)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "12fb3ceb-384e-48cc-8d84-a4b5496fdd52")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 -5.08 180)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.2727272727)
+		(uuid "5f2c752d-5f27-4ffd-9ab1-940d8e8650c0")
+	)
+	(pad "3" thru_hole circle
+		(at 0 5.08 180)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eafe650d-f84f-46f5-b51d-97d3b45c24a0")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Tactile_SPDT_Omron_D2F.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/Extra Libs/microSwitch_Kailh_6x6x7.3 (MI627301D07).step"
+		(offset
+			(xyz 0 2.525 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
