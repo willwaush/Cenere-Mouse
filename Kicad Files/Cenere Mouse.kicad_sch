@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Cenere Mouse")
+		(date "2025-08-22")
 		(rev "1")
 		(company "Triungulo Lab")
 	)

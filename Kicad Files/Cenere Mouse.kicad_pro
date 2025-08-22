@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.23,
-          "width": 0.23
+          "height": 0.25,
+          "width": 0.25
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -130,7 +130,7 @@
         "max_error": 0.0015,
         "min_clearance": 0.127,
         "min_connection": 0.127,
-        "min_copper_edge_clearance": 0.25,
+        "min_copper_edge_clearance": 0.21,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
@@ -142,9 +142,9 @@
         "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.127,
-        "min_via_annular_width": 0.07,
+        "min_via_annular_width": 0.1,
         "min_via_diameter": 0.3,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -237,7 +237,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.45,
+          "diameter": 0.51,
           "drill": 0.3
         },
         {
@@ -660,8 +660,8 @@
         },
         {
           "group_by": false,
-          "label": "JLC PN",
-          "name": "JLC PN",
+          "label": "JLCPCB PN",
+          "name": "JLCPCB PN",
           "show": true
         },
         {
@@ -700,7 +700,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {

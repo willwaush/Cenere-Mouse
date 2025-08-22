@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Cenere Mouse")
+		(date "2025-08-22")
 		(rev "1")
 		(company "Triungulo Lab")
 	)
@@ -3160,6 +3161,22 @@
 		(color 0 0 0 0)
 		(uuid "f5b5cbbd-a026-4f1d-bbc7-60d94675b7c4")
 	)
+	(no_connect
+		(at 116.84 175.26)
+		(uuid "42ccfcf1-3016-48fb-b06f-b35b44c6f5db")
+	)
+	(no_connect
+		(at 257.81 63.5)
+		(uuid "7491338f-7911-45fc-b868-87db80f97c20")
+	)
+	(no_connect
+		(at 257.81 41.91)
+		(uuid "b82946b7-7b27-446a-a59a-c5cc5940a061")
+	)
+	(no_connect
+		(at 228.6 63.5)
+		(uuid "d08bf79c-30bb-4d97-8017-74df45f8cc4a")
+	)
 	(wire
 		(pts
 			(xy 73.66 167.64) (xy 73.66 166.37)
@@ -5232,15 +5249,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C6119943"
-			(at 25.4 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "HRE"
 			(at 25.4 66.04 0)
 			(effects
@@ -5251,6 +5259,15 @@
 			)
 		)
 		(property "Part Number" "CGA0805X7R475K350MT"
+			(at 25.4 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C6119943"
 			(at 25.4 66.04 0)
 			(effects
 				(font
@@ -5514,7 +5531,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100nF 50V X7R 0402 ±10% Capacitor"
+			(at 38.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 38.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL05B104KB54PNC"
+			(at 38.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C307331"
 			(at 38.1 153.67 0)
 			(effects
 				(font
@@ -5714,7 +5758,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100mW 1MΩ 75V Thick Film Resistor ±1% 0603"
+			(at 246.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 246.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF1004T5E"
+			(at 246.38 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C22935"
 			(at 246.38 135.89 0)
 			(effects
 				(font
@@ -5784,7 +5855,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
+			(at 52.07 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 52.07 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF1002T5E"
+			(at 52.07 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C25804"
 			(at 52.07 118.11 0)
 			(effects
 				(font
@@ -5983,7 +6081,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100nF 50V X7R 0402 ±10% Capacitor"
+			(at 60.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 60.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL05B104KB54PNC"
+			(at 60.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C307331"
 			(at 60.96 73.66 0)
 			(effects
 				(font
@@ -6142,7 +6267,7 @@
 		(at 194.31 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6192,6 +6317,24 @@
 		)
 		(property "Manufacturer" "Kailh"
 			(at 195.834 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CMI627301D07"
+			(at 194.31 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C400268"
+			(at 194.31 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6284,7 +6427,7 @@
 		(at 223.52 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6341,6 +6484,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "CMI627301D07"
+			(at 223.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C400268"
+			(at 223.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8f36722-8d33-4413-b186-1dc2e968117f")
 		)
@@ -6373,7 +6534,7 @@
 				)
 			)
 		)
-		(property "Value" "Microswitch"
+		(property "Value" "Microswitch_Extra"
 			(at 223.52 60.452 0)
 			(effects
 				(font
@@ -6408,6 +6569,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB PN" ""
+			(at 223.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8ec0d3e5-7395-4841-8f30-28e8b1da9653")
 		)
@@ -6431,7 +6601,7 @@
 		(at 252.73 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "4337fc3d-66de-4269-a983-fc3e5082c3c0")
@@ -6443,7 +6613,7 @@
 				)
 			)
 		)
-		(property "Value" "Microswitch"
+		(property "Value" "Microswitch_DPI"
 			(at 252.73 38.862 0)
 			(effects
 				(font
@@ -6469,7 +6639,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Blue Switch (30,000,000 Cycles)"
+			(at 252.73 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kailh"
+			(at 252.73 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CMI126603D09"
+			(at 252.73 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C400257"
 			(at 252.73 44.45 0)
 			(effects
 				(font
@@ -6734,17 +6931,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "125mW 150V 5.6Ω Thick Film Resistor ±1% 0805"
 			(at 116.84 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC PN" "C17729"
-			(at 116.84 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6763,6 +6951,15 @@
 		)
 		(property "Part Number" "0805W8F560KT5E"
 			(at 116.84 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C17729"
+			(at 116.84 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6830,7 +7027,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100nF 50V X7R 0402 ±10% Capacitor"
+			(at 91.44 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 91.44 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL05B104KB54PNC"
+			(at 91.44 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C307331"
 			(at 91.44 153.67 0)
 			(effects
 				(font
@@ -6899,7 +7123,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100nF 50V X7R 0402 ±10% Capacitor"
+			(at 55.88 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 55.88 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL05B104KB54PNC"
+			(at 55.88 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C307331"
 			(at 55.88 153.67 0)
 			(effects
 				(font
@@ -6986,6 +7237,15 @@
 			)
 		)
 		(property "Part Number" "PAW3395"
+			(at 88.9 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" ""
 			(at 88.9 60.96 0)
 			(effects
 				(font
@@ -7187,7 +7447,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5a7a5434-e457-4ba5-895f-750899ed2b36")
@@ -7226,6 +7486,15 @@
 			)
 		)
 		(property "Description" "Encoder 9mm"
+			(at 228.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" ""
 			(at 228.6 144.78 0)
 			(effects
 				(font
@@ -7299,6 +7568,33 @@
 			)
 		)
 		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+			(at 109.22 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Worldsemi"
+			(at 109.22 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WS2812B-2020"
+			(at 109.22 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C965555"
 			(at 109.22 175.26 0)
 			(effects
 				(font
@@ -7382,15 +7678,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C95841"
-			(at 45.72 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Samsung"
 			(at 45.72 48.26 0)
 			(effects
@@ -7401,6 +7688,15 @@
 			)
 		)
 		(property "Part Number" "CL21B106KOQNNNE"
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C95841"
 			(at 45.72 48.26 0)
 			(effects
 				(font
@@ -7481,15 +7777,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C347476"
-			(at 59.69 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "UMW(Youtai Semiconductor Co., Ltd.)"
 			(at 59.69 124.46 0)
 			(effects
@@ -7500,6 +7787,15 @@
 			)
 		)
 		(property "Part Number" "AO3401A"
+			(at 59.69 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C347476"
 			(at 59.69 124.46 0)
 			(effects
 				(font
@@ -7673,7 +7969,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74LVC1T45DW"
+		(property "Value" "SN74LVC1T45DC"
 			(at 123.19 117.602 0)
 			(effects
 				(font
@@ -7700,6 +7996,33 @@
 			)
 		)
 		(property "Description" "Single-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, SOT-363"
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SN74LVC1T45DC"
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C9382"
 			(at 111.76 127 0)
 			(effects
 				(font
@@ -7792,15 +8115,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C8545"
-			(at 49.53 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Jiangsu Changjing Electronics Technology Co., Ltd."
 			(at 49.53 132.08 0)
 			(effects
@@ -7811,6 +8125,15 @@
 			)
 		)
 		(property "Part Number" "2N7002"
+			(at 49.53 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C8545"
 			(at 49.53 132.08 0)
 			(effects
 				(font
@@ -8013,7 +8336,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100mW 1MΩ 75V Thick Film Resistor ±1% 0603"
+			(at 238.76 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 238.76 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF1004T5E"
+			(at 238.76 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C22935"
 			(at 238.76 135.89 0)
 			(effects
 				(font
@@ -8147,7 +8497,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100nF 50V X7R 0402 ±10% Capacitor"
+			(at 73.66 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 73.66 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL05B104KB54PNC"
+			(at 73.66 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C307331"
 			(at 73.66 153.67 0)
 			(effects
 				(font
@@ -8346,7 +8723,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100nF 50V X7R 0402 ±10% Capacitor"
+			(at 109.22 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 109.22 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL05B104KB54PNC"
+			(at 109.22 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C307331"
 			(at 109.22 153.67 0)
 			(effects
 				(font
@@ -8546,8 +8950,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 121.92 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 121.92 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF1002T5E"
+			(at 121.92 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C25804"
+			(at 121.92 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8616,7 +9047,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100mW 5.1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
+			(at 87.63 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 87.63 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF5101T5E"
+			(at 87.63 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C23186"
 			(at 87.63 124.46 0)
 			(effects
 				(font
@@ -8710,7 +9168,7 @@
 		(at 194.31 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8760,6 +9218,24 @@
 		)
 		(property "Manufacturer" "Kailh"
 			(at 195.834 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CMI627301D07"
+			(at 194.31 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C400268"
+			(at 194.31 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8828,6 +9304,33 @@
 			)
 		)
 		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+			(at 55.88 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Worldsemi"
+			(at 55.88 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WS2812B-2020"
+			(at 55.88 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C965555"
 			(at 55.88 175.26 0)
 			(effects
 				(font
@@ -9171,15 +9674,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C95841"
-			(at 50.8 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Samsung"
 			(at 50.8 73.66 0)
 			(effects
@@ -9190,6 +9684,15 @@
 			)
 		)
 		(property "Part Number" "CL21B106KOQNNNE"
+			(at 50.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C95841"
 			(at 50.8 73.66 0)
 			(effects
 				(font
@@ -9323,7 +9826,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100nF 50V X7R 0402 ±10% Capacitor"
+			(at 36.83 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 36.83 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL05B104KB54PNC"
+			(at 36.83 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C307331"
 			(at 36.83 66.04 0)
 			(effects
 				(font
@@ -9467,15 +9997,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C95841"
-			(at 40.64 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Samsung"
 			(at 40.64 118.11 0)
 			(effects
@@ -9486,6 +10007,15 @@
 			)
 		)
 		(property "Part Number" "CL21B106KOQNNNE"
+			(at 40.64 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C95841"
 			(at 40.64 118.11 0)
 			(effects
 				(font
@@ -9526,7 +10056,7 @@
 				)
 			)
 		)
-		(property "Value" "Microswitch"
+		(property "Value" "Microswitch_Extra"
 			(at 252.73 60.452 0)
 			(effects
 				(font
@@ -9553,6 +10083,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 252.73 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" ""
 			(at 252.73 66.04 0)
 			(effects
 				(font
@@ -9689,7 +10228,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100nF 50V X7R 0402 ±10% Capacitor"
+			(at 149.86 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 149.86 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL05B104KB54PNC"
+			(at 149.86 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C307331"
 			(at 149.86 127 0)
 			(effects
 				(font
@@ -9767,6 +10333,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Worldsemi"
+			(at 91.44 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WS2812B-2020"
+			(at 91.44 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C965555"
+			(at 91.44 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d9bcf156-2508-40a6-9ff0-e0c4de68bc26")
 		)
@@ -9834,8 +10427,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 35.56 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 35.56 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF1000T5E"
+			(at 35.56 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C22775"
+			(at 35.56 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9912,6 +10532,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Worldsemi"
+			(at 73.66 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WS2812B-2020"
+			(at 73.66 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C965555"
+			(at 73.66 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "59889a38-4554-4271-9848-77ba910c71da")
 		)
@@ -9979,8 +10626,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 45.72 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 45.72 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF1002T5E"
+			(at 45.72 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C25804"
+			(at 45.72 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10113,7 +10787,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100nF 50V X7R 0402 ±10% Capacitor"
+			(at 138.43 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 138.43 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL05B104KB54PNC"
+			(at 138.43 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C307331"
 			(at 138.43 127 0)
 			(effects
 				(font
@@ -10183,6 +10884,33 @@
 			)
 		)
 		(property "Description" "2020 SMD adressable RGB LED with integrated controller"
+			(at 38.1 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Worldsemi"
+			(at 38.1 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "WS2812B-2020"
+			(at 38.1 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C965555"
 			(at 38.1 175.26 0)
 			(effects
 				(font
@@ -10266,15 +10994,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C84494"
-			(at 124.46 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Murata"
 			(at 124.46 41.91 0)
 			(effects
@@ -10285,6 +11004,15 @@
 			)
 		)
 		(property "Part Number" "GRM32ER71A476KE15L"
+			(at 124.46 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C84494"
 			(at 124.46 41.91 0)
 			(effects
 				(font
@@ -10353,7 +11081,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100nF 50V X7R 0402 ±10% Capacitor"
+			(at 55.88 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 55.88 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL05B104KB54PNC"
+			(at 55.88 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C307331"
 			(at 55.88 48.26 0)
 			(effects
 				(font

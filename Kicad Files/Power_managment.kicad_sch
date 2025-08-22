@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Cenere Mouse")
+		(date "2025-08-22")
 		(rev "1")
 		(company "Triungulo Lab")
 	)
@@ -4799,6 +4800,17 @@
 		)
 		(uuid "2c4fa57c-a7b1-42cd-8d82-72c87bf8b989")
 	)
+	(text "BATTERY"
+		(exclude_from_sim no)
+		(at 134.62 95.504 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e4e5a32-62dd-4622-8473-ce6e7b1acf28")
+	)
 	(text "USB Input"
 		(exclude_from_sim no)
 		(at 16.256 18.796 0)
@@ -5113,8 +5125,24 @@
 		(uuid "fe1deb67-733d-4cef-bda3-9bc636b79be4")
 	)
 	(no_connect
+		(at 54.61 63.5)
+		(uuid "0e4d666b-ff1b-4806-a9de-74ec9cc1e9e3")
+	)
+	(no_connect
 		(at 241.3 35.56)
 		(uuid "4e475315-3877-41f7-b6e0-0a6fa66fbfcf")
+	)
+	(no_connect
+		(at 241.3 104.14)
+		(uuid "722550f5-b3e1-40eb-8aa1-c00e203881ed")
+	)
+	(no_connect
+		(at 54.61 60.96)
+		(uuid "a55495d5-d418-4f5a-bf82-14f2bbaabe92")
+	)
+	(no_connect
+		(at 248.92 104.14)
+		(uuid "e79fbb6e-1a12-4263-a6fa-78153e154eac")
 	)
 	(polyline
 		(pts
@@ -5155,16 +5183,6 @@
 			(type default)
 		)
 		(uuid "03552b64-8c51-4f31-a0e1-73317f47503f")
-	)
-	(wire
-		(pts
-			(xy 143.51 90.17) (xy 146.05 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "041456d2-df63-417d-a033-9fc1663a0f97")
 	)
 	(wire
 		(pts
@@ -5868,6 +5886,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 90.17) (xy 146.05 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6264c71c-9da7-440a-a2db-ad7d9d71ee12")
+	)
+	(wire
+		(pts
 			(xy 39.37 115.57) (xy 53.34 115.57)
 		)
 		(stroke
@@ -6358,6 +6386,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 92.71) (xy 146.05 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a78c59-1e61-4b16-b7a7-d03a11aa51d9")
+	)
+	(wire
+		(pts
 			(xy 223.52 38.1) (xy 222.25 38.1)
 		)
 		(stroke
@@ -6475,16 +6513,6 @@
 			(type default)
 		)
 		(uuid "abd8576b-262a-4ecc-a2a2-510d1a9a30d2")
-	)
-	(wire
-		(pts
-			(xy 143.51 92.71) (xy 146.05 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac44d301-65ad-4316-a3da-f39174119b7e")
 	)
 	(wire
 		(pts
@@ -7745,15 +7773,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C223907"
-			(at 39.37 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Korean Hroparts Elec"
 			(at 39.37 48.26 0)
 			(effects
@@ -7764,6 +7783,15 @@
 			)
 		)
 		(property "Part Number" "TYPE-C-31-M-14"
+			(at 39.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C223907"
 			(at 39.37 48.26 0)
 			(effects
 				(font
@@ -8137,7 +8165,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "2.2kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
+			(at 30.48 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 30.48 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0402WGF2201TCE"
+			(at 30.48 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C25879"
 			(at 30.48 158.75 0)
 			(effects
 				(font
@@ -8207,7 +8262,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100nF 50V X7R 0402 ±10% Capacitor"
+			(at 215.9 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 215.9 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL05B104KB54PNC"
+			(at 215.9 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C307331"
 			(at 215.9 43.18 0)
 			(effects
 				(font
@@ -8348,15 +8430,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C5832372"
-			(at 245.11 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "cjiang (Changjiang Microelectronics Tech)"
 			(at 245.11 142.24 90)
 			(effects
@@ -8367,6 +8440,15 @@
 			)
 		)
 		(property "Part Number" "FTC252012S2R2MBCA"
+			(at 245.11 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C5832372"
 			(at 245.11 142.24 90)
 			(effects
 				(font
@@ -8460,7 +8542,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C337893"
+		(property "JLCPCB PN" "C337893"
 			(at 245.11 104.14 90)
 			(effects
 				(font
@@ -8538,15 +8620,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C6119943"
-			(at 91.44 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "HRE"
 			(at 91.44 146.05 0)
 			(effects
@@ -8557,6 +8630,15 @@
 			)
 		)
 		(property "Part Number" "CGA0805X7R475K350MT"
+			(at 91.44 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C6119943"
 			(at 91.44 146.05 0)
 			(effects
 				(font
@@ -8698,15 +8780,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C151139"
-			(at 80.01 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Littelfuse"
 			(at 80.01 33.02 90)
 			(effects
@@ -8717,6 +8790,15 @@
 			)
 		)
 		(property "Part Number" "0467001.NRHF"
+			(at 80.01 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C151139"
 			(at 80.01 33.02 90)
 			(effects
 				(font
@@ -8804,15 +8886,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C5121471"
-			(at 74.93 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Kingbright"
 			(at 74.93 125.73 90)
 			(effects
@@ -8824,6 +8897,15 @@
 		)
 		(property "Part Number" "APTD1608CGCK"
 			(at 74.93 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C5121471"
+			(at 74.93 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8900,15 +8982,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C29823"
-			(at 39.37 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 39.37 120.65 0)
 			(effects
@@ -8919,6 +8992,15 @@
 			)
 		)
 		(property "Part Number" "1206B475K500NT"
+			(at 39.37 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C29823"
 			(at 39.37 120.65 0)
 			(effects
 				(font
@@ -8988,16 +9070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 267kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount"
-			(at 215.9 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC PN" "C2998050"
+		(property "Description" "267kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
 			(at 215.9 147.32 0)
 			(effects
 				(font
@@ -9016,6 +9089,15 @@
 			)
 		)
 		(property "Part Number" "FRC0402F2673TS"
+			(at 215.9 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C2998050"
 			(at 215.9 147.32 0)
 			(effects
 				(font
@@ -9158,15 +9240,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C49678"
-			(at 88.9 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 88.9 39.37 0)
 			(effects
@@ -9177,6 +9250,15 @@
 			)
 		)
 		(property "Part Number" "CC0805KRX7R9BB104"
+			(at 88.9 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C49678"
 			(at 88.9 39.37 0)
 			(effects
 				(font
@@ -9246,7 +9328,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
+			(at 132.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 132.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF1000T5E"
+			(at 132.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C22775"
 			(at 132.08 106.68 0)
 			(effects
 				(font
@@ -9316,8 +9425,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 248.92 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 248.92 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF1002T5E"
+			(at 248.92 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C25804"
+			(at 248.92 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9394,15 +9530,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C2836319"
-			(at 88.9 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "MSKSEMI"
 			(at 88.9 69.85 0)
 			(effects
@@ -9413,6 +9540,15 @@
 			)
 		)
 		(property "Part Number" "SRV05-4"
+			(at 88.9 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C2836319"
 			(at 88.9 69.85 0)
 			(effects
 				(font
@@ -9632,15 +9768,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C6119943"
-			(at 102.87 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "HRE"
 			(at 102.87 140.97 0)
 			(effects
@@ -9651,6 +9778,15 @@
 			)
 		)
 		(property "Part Number" "CGA0805X7R475K350MT"
+			(at 102.87 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C6119943"
 			(at 102.87 140.97 0)
 			(effects
 				(font
@@ -9745,7 +9881,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "4ffe1d49-39c5-4d8c-8351-a3992cf25fc1")
@@ -9785,8 +9921,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 264.16 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 264.16 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF1002T5E"
+			(at 264.16 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C25804"
+			(at 264.16 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10123,6 +10286,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 228.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TPS62840YBGR"
+			(at 228.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C2071139"
+			(at 228.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B2"
 			(uuid "32d64a11-95c9-4838-b0f3-ef3d193fe71e")
 		)
@@ -10333,15 +10523,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C88970"
-			(at 67.31 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Murata"
 			(at 67.31 33.02 90)
 			(effects
@@ -10352,6 +10533,15 @@
 			)
 		)
 		(property "Part Number" "BLM15PX121SN1D"
+			(at 67.31 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C88970"
 			(at 67.31 33.02 90)
 			(effects
 				(font
@@ -10423,6 +10613,33 @@
 			)
 		)
 		(property "Description" "USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16"
+			(at 53.34 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 53.34 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "BQ24075RGTR"
+			(at 53.34 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C15464"
 			(at 53.34 143.51 0)
 			(effects
 				(font
@@ -10613,15 +10830,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C8545"
-			(at 143.51 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Jiangsu Changjing Electronics Technology Co., Ltd."
 			(at 143.51 111.76 0)
 			(effects
@@ -10632,6 +10840,15 @@
 			)
 		)
 		(property "Part Number" "2N7002"
+			(at 143.51 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C8545"
 			(at 143.51 111.76 0)
 			(effects
 				(font
@@ -10777,15 +10994,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C95841"
-			(at 101.6 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Samsung"
 			(at 101.6 39.37 0)
 			(effects
@@ -10796,6 +11004,15 @@
 			)
 		)
 		(property "Part Number" "CL21B106KOQNNNE"
+			(at 101.6 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C95841"
 			(at 101.6 39.37 0)
 			(effects
 				(font
@@ -10945,6 +11162,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "MAX17048G+T10"
+			(at 232.41 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C2682616"
+			(at 232.41 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a4c39d9e-c8f0-40a1-993c-6207e84d0811")
 		)
@@ -11027,7 +11262,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
+			(at 156.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 156.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF1003T5E"
+			(at 156.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C25803"
 			(at 156.21 92.71 0)
 			(effects
 				(font
@@ -11097,7 +11359,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
+			(at 132.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 132.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF1002T5E"
+			(at 132.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C25804"
 			(at 132.08 116.84 0)
 			(effects
 				(font
@@ -11297,16 +11586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 215.9 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC PN" "C471842"
+		(property "Description" "100mW 75V 909Ω Thick Film Resistor ±0.5% 0603"
 			(at 215.9 99.06 0)
 			(effects
 				(font
@@ -11325,6 +11605,15 @@
 			)
 		)
 		(property "Part Number" "RC0603DR-07909RL"
+			(at 215.9 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C471842"
 			(at 215.9 99.06 0)
 			(effects
 				(font
@@ -11468,15 +11757,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C23733"
-			(at 207.01 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Samsung"
 			(at 207.01 142.24 0)
 			(effects
@@ -11487,6 +11767,15 @@
 			)
 		)
 		(property "Part Number" "CL05A475MP5NRNC"
+			(at 207.01 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C23733"
 			(at 207.01 142.24 0)
 			(effects
 				(font
@@ -11562,15 +11851,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C5832372"
-			(at 245.11 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "cjiang (Changjiang Microelectronics Tech)"
 			(at 245.11 93.98 90)
 			(effects
@@ -11581,6 +11861,15 @@
 			)
 		)
 		(property "Part Number" "FTC252012S2R2MBCA"
+			(at 245.11 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C5832372"
 			(at 245.11 93.98 90)
 			(effects
 				(font
@@ -11853,15 +12142,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C95841"
-			(at 269.24 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Samsung"
 			(at 269.24 91.44 0)
 			(effects
@@ -11872,6 +12152,15 @@
 			)
 		)
 		(property "Part Number" "CL21B106KOQNNNE"
+			(at 269.24 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C95841"
 			(at 269.24 91.44 0)
 			(effects
 				(font
@@ -11941,6 +12230,33 @@
 			)
 		)
 		(property "Description" "60-nA quiescent current (IQ), 1.8-V to 6.5-VIN, high-efficiency 750-mA step-down converter"
+			(at 228.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 228.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TPS62840YBGR"
+			(at 228.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C2071139"
 			(at 228.6 93.98 0)
 			(effects
 				(font
@@ -12216,7 +12532,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100mW 5.1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
+			(at 69.85 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 69.85 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF5101T5E"
+			(at 69.85 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C23186"
 			(at 69.85 45.72 0)
 			(effects
 				(font
@@ -12554,15 +12897,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C95841"
-			(at 269.24 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Samsung"
 			(at 269.24 139.7 0)
 			(effects
@@ -12573,6 +12907,15 @@
 			)
 		)
 		(property "Part Number" "CL21B106KOQNNNE"
+			(at 269.24 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C95841"
 			(at 269.24 139.7 0)
 			(effects
 				(font
@@ -12836,8 +13179,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "1.5kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 85.09 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 85.09 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF1501T5E"
+			(at 85.09 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C22843"
+			(at 85.09 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12866,7 +13236,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "be8b5884-2d93-4384-969f-2ad31e9d50d5")
@@ -12905,6 +13275,15 @@
 			)
 		)
 		(property "Description" "MSS28D18, DPDT Slide switch SMD"
+			(at 166.37 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" ""
 			(at 166.37 104.14 0)
 			(effects
 				(font
@@ -12985,7 +13364,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "10kΩ 125mW 150V Thick Film Resistor ±1% ±100ppm/℃ 0805"
+			(at 80.01 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 80.01 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0805W8F1002T5E"
+			(at 80.01 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C17414"
 			(at 80.01 152.4 0)
 			(effects
 				(font
@@ -13184,8 +13590,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "1.5kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 85.09 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 85.09 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF1501T5E"
+			(at 85.09 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C22843"
+			(at 85.09 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13254,7 +13687,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100mW 3.9kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
+			(at 38.1 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 38.1 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF3901T5E"
+			(at 38.1 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C23018"
 			(at 38.1 158.75 0)
 			(effects
 				(font
@@ -13518,7 +13978,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100mW 5.1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
+			(at 77.47 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 77.47 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF5101T5E"
+			(at 77.47 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C23186"
 			(at 77.47 45.72 0)
 			(effects
 				(font
@@ -13606,15 +14093,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C2286"
-			(at 74.93 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Hubei KENTO"
 			(at 74.93 116.84 90)
 			(effects
@@ -13626,6 +14104,15 @@
 		)
 		(property "Part Number" "KT-0603R"
 			(at 74.93 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C2286"
+			(at 74.93 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13719,7 +14206,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "e43b0581-2f0f-48c3-b364-3f8e001cd3f6")
@@ -13759,8 +14246,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603"
 			(at 256.54 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 256.54 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603WAF1002T5E"
+			(at 256.54 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C25804"
+			(at 256.54 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13838,15 +14352,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C23733"
-			(at 207.01 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Samsung"
 			(at 207.01 93.98 0)
 			(effects
@@ -13857,6 +14362,15 @@
 			)
 		)
 		(property "Part Number" "CL05A475MP5NRNC"
+			(at 207.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C23733"
 			(at 207.01 93.98 0)
 			(effects
 				(font
@@ -13935,15 +14449,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C15525"
-			(at 261.62 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Samsung"
 			(at 261.62 139.7 0)
 			(effects
@@ -13954,6 +14459,15 @@
 			)
 		)
 		(property "Part Number" "CL05A106MQ5NUNC"
+			(at 261.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C15525"
 			(at 261.62 139.7 0)
 			(effects
 				(font
@@ -14022,7 +14536,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "50V 56kΩ 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
+			(at 22.86 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 22.86 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0402WGF5602TCE"
+			(at 22.86 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C25796"
 			(at 22.86 158.75 0)
 			(effects
 				(font
@@ -14113,8 +14654,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 138.43 90.17 0)
-		(mirror y)
+		(at 138.43 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14122,15 +14662,6 @@
 		(dnp no)
 		(uuid "f37c7da8-c584-4cc3-9e2e-15df1508c79c")
 		(property "Reference" "J2"
-			(at 136.652 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BATTERY"
 			(at 136.652 92.71 0)
 			(effects
 				(font
@@ -14139,8 +14670,17 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical"
-			(at 138.43 90.17 0)
+		(property "Value" "PH-2A"
+			(at 136.652 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+			(at 138.43 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14149,7 +14689,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 90.17 0)
+			(at 138.43 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14157,8 +14697,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 138.43 90.17 0)
+		(property "Description" "1x2P 2 2P 2mm PH Through Hole Plugin,P=2mm Wire To Board Connector"
+			(at 138.43 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "BOOMELE(Boom Precision Elec)"
+			(at 138.43 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "PH-2A"
+			(at 138.43 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C2319"
+			(at 138.43 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14431,15 +14998,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C15525"
-			(at 261.62 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Samsung"
 			(at 261.62 91.44 0)
 			(effects
@@ -14450,6 +15008,15 @@
 			)
 		)
 		(property "Part Number" "CL05A106MQ5NUNC"
+			(at 261.62 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C15525"
 			(at 261.62 91.44 0)
 			(effects
 				(font

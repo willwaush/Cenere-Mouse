@@ -6,6 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Cenere Mouse")
+		(date "2025-08-22")
 		(rev "1")
 		(company "Triungulo Lab")
 	)
@@ -3647,6 +3648,14 @@
 		(uuid "1f8b45c8-5afc-4ba3-b05a-1d5d7cc985bb")
 	)
 	(no_connect
+		(at 168.91 217.17)
+		(uuid "243e2cf2-1c43-40b4-8a6b-dd8297e8eab0")
+	)
+	(no_connect
+		(at 168.91 204.47)
+		(uuid "2564af8c-b749-4c36-8208-cad5f9f5131e")
+	)
+	(no_connect
 		(at 168.91 151.13)
 		(uuid "2e5e966d-78f4-4160-85ac-a67c6a276b4f")
 	)
@@ -3679,8 +3688,20 @@
 		(uuid "4e6a4af7-61bd-41d5-9837-faf5ffd69b4f")
 	)
 	(no_connect
+		(at 168.91 207.01)
+		(uuid "57985b93-e403-47c7-9582-88404d88f46a")
+	)
+	(no_connect
 		(at 168.91 166.37)
 		(uuid "6197c25a-ed66-49b2-977e-c43703b58c31")
+	)
+	(no_connect
+		(at 168.91 128.27)
+		(uuid "61cf0bd8-e4db-41ac-b930-a47f8743fe3b")
+	)
+	(no_connect
+		(at 168.91 212.09)
+		(uuid "63aa0f42-e023-49e8-9e3b-a22d96cdc834")
 	)
 	(no_connect
 		(at 168.91 181.61)
@@ -3717,6 +3738,10 @@
 	(no_connect
 		(at 165.1 209.55)
 		(uuid "9bf3778f-912e-40e7-89de-8fa7b80c9cbf")
+	)
+	(no_connect
+		(at 168.91 158.75)
+		(uuid "9ce4aa7f-7e57-4626-a8e2-1f7b2782508d")
 	)
 	(no_connect
 		(at 156.21 237.49)
@@ -3777,6 +3802,10 @@
 	(no_connect
 		(at 165.1 194.31)
 		(uuid "fae93930-217e-488d-b918-600c4304980e")
+	)
+	(no_connect
+		(at 168.91 133.35)
+		(uuid "fdbef126-ffcb-4643-96ce-45aff5fdf4d2")
 	)
 	(no_connect
 		(at 168.91 191.77)
@@ -6748,7 +6777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 820pF C0G ±5% 0402 MLCC"
+		(property "Description" ""
 			(at 292.1 137.16 0)
 			(effects
 				(font
@@ -6757,7 +6786,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C307452"
+		(property "Manufacturer" ""
 			(at 292.1 137.16 0)
 			(effects
 				(font
@@ -6766,7 +6795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Part Number" ""
 			(at 292.1 137.16 0)
 			(effects
 				(font
@@ -6775,7 +6804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C821JB5NNNC"
+		(property "JLCPCB PN" ""
 			(at 292.1 137.16 0)
 			(effects
 				(font
@@ -6853,15 +6882,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C86752"
-			(at 251.46 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Taiyo Yuden"
 			(at 251.46 67.31 0)
 			(effects
@@ -6873,6 +6893,15 @@
 		)
 		(property "Part Number" "LBMF1608T100M"
 			(at 251.46 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C86752"
+			(at 251.46 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6977,7 +7006,7 @@
 				)
 			)
 		)
-		(property "Value" "SKRPACE010"
+		(property "Value" "Microswitch_Wheel"
 			(at 298.45 240.538 0)
 			(effects
 				(font
@@ -7014,6 +7043,24 @@
 		)
 		(property "Manufacturer" "ALPS"
 			(at 299.974 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SKRPACE010"
+			(at 298.45 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C139797"
+			(at 298.45 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7096,15 +7143,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C23164"
-			(at 143.51 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 143.51 64.77 90)
 			(effects
@@ -7115,6 +7153,15 @@
 			)
 		)
 		(property "Part Number" "0603WAF470KT5E"
+			(at 143.51 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C23164"
 			(at 143.51 64.77 90)
 			(effects
 				(font
@@ -7323,15 +7370,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C1547"
-			(at 271.78 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 271.78 106.68 0)
 			(effects
@@ -7342,6 +7380,15 @@
 			)
 		)
 		(property "Part Number" "0402CG120J500NT"
+			(at 271.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C1547"
 			(at 271.78 106.68 0)
 			(effects
 				(font
@@ -7485,15 +7532,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C23733"
-			(at 167.64 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Samsung"
 			(at 167.64 71.12 0)
 			(effects
@@ -7504,6 +7542,15 @@
 			)
 		)
 		(property "Part Number" "CL05A475MP5NRNC"
+			(at 167.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C23733"
 			(at 167.64 71.12 0)
 			(effects
 				(font
@@ -7712,6 +7759,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB PN" ""
+			(at 293.37 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4cdb1600-8a2c-4d5d-bce7-9858ada08320")
 		)
@@ -7781,15 +7837,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C1548"
-			(at 140.97 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 140.97 123.19 0)
 			(effects
@@ -7801,6 +7848,15 @@
 		)
 		(property "Part Number" "0402CG150J500NT"
 			(at 140.97 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C1548"
+			(at 140.97 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7942,15 +7998,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C23733"
-			(at 237.49 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Samsung"
 			(at 237.49 106.68 0)
 			(effects
@@ -7961,6 +8008,15 @@
 			)
 		)
 		(property "Part Number" "CL05A475MP5NRNC"
+			(at 237.49 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C23733"
 			(at 237.49 106.68 0)
 			(effects
 				(font
@@ -8289,8 +8345,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "1.5kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
 			(at 284.48 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 284.48 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0402WGF1501TCE"
+			(at 284.48 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C25867"
+			(at 284.48 232.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8750,7 +8833,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100nF 50V X7R 0402 ±10% Capacitor"
+			(at 219.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 219.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL05B104KB54PNC"
+			(at 219.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C307331"
 			(at 219.71 50.8 0)
 			(effects
 				(font
@@ -8893,15 +9003,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C1548"
-			(at 140.97 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 140.97 113.03 0)
 			(effects
@@ -8913,6 +9014,15 @@
 		)
 		(property "Part Number" "0402CG150J500NT"
 			(at 140.97 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C1548"
+			(at 140.97 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8989,15 +9099,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C272875"
-			(at 304.8 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 304.8 91.44 0)
 			(effects
@@ -9008,6 +9109,15 @@
 			)
 		)
 		(property "Part Number" "CC0402KRX7R9BB473"
+			(at 304.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C272875"
 			(at 304.8 91.44 0)
 			(effects
 				(font
@@ -9086,15 +9196,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C52923"
-			(at 154.94 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Samsung"
 			(at 154.94 71.12 0)
 			(effects
@@ -9105,6 +9206,15 @@
 			)
 		)
 		(property "Part Number" "CL05A105KA5NQNC"
+			(at 154.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C52923"
 			(at 154.94 71.12 0)
 			(effects
 				(font
@@ -9248,15 +9358,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C23733"
-			(at 177.8 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Samsung"
 			(at 177.8 50.8 0)
 			(effects
@@ -9267,6 +9368,15 @@
 			)
 		)
 		(property "Part Number" "CL05A475MP5NRNC"
+			(at 177.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C23733"
 			(at 177.8 50.8 0)
 			(effects
 				(font
@@ -9335,7 +9445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 820pF C0G ±5% 0402 MLCC"
+		(property "Description" "0.5pF ±0.05pF 50V C0G 0402"
 			(at 266.7 137.16 0)
 			(effects
 				(font
@@ -9344,7 +9454,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C307452"
+		(property "Manufacturer" "Murata"
 			(at 266.7 137.16 0)
 			(effects
 				(font
@@ -9353,7 +9463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Part Number" "GCM1555C1HR50WA16D"
 			(at 266.7 137.16 0)
 			(effects
 				(font
@@ -9362,7 +9472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C821JB5NNNC"
+		(property "JLCPCB PN" "C2912277"
 			(at 266.7 137.16 0)
 			(effects
 				(font
@@ -9434,6 +9544,33 @@
 		)
 		(property "Description" "2.4GHz Bluetooth 5.4 USB NFC SoC, 64MHz Cortex-M4 FPU, CryptoCell, PDM, I2S, QSPI, aQFN-73"
 			(at 201.93 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nordic Semicon"
+			(at 201.93 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NRF52840-QIAA-R"
+			(at 201.93 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C190794"
+			(at 201.93 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9978,7 +10115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 820pF C0G ±5% 0402 MLCC"
+		(property "Description" "0.8pF 50V C0G ±0.05pF 0402 High Frequency Capacitor"
 			(at 241.3 137.16 0)
 			(effects
 				(font
@@ -9987,7 +10124,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C307452"
+		(property "Manufacturer" "Murata"
 			(at 241.3 137.16 0)
 			(effects
 				(font
@@ -9996,7 +10133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Part Number" "GJM1555C1HR80WB01D"
 			(at 241.3 137.16 0)
 			(effects
 				(font
@@ -10005,7 +10142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C821JB5NNNC"
+		(property "JLCPCB PN" "C88902"
 			(at 241.3 137.16 0)
 			(effects
 				(font
@@ -10140,7 +10277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 820pF C0G ±5% 0402 MLCC"
+		(property "Description" "0.4pF ±0.05pF 25V C0G 0201"
 			(at 279.4 132.08 0)
 			(effects
 				(font
@@ -10149,7 +10286,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C307452"
+		(property "Manufacturer" "Murata"
 			(at 279.4 132.08 0)
 			(effects
 				(font
@@ -10158,7 +10295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Part Number" "GRM0335C1ER40WA01D"
 			(at 279.4 132.08 0)
 			(effects
 				(font
@@ -10167,8 +10304,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "CL05C821JB5NNNC"
-			(at 279.4 132.08 0)
+		(property "JLCPCB PN" "C710805"
+			(at 279.4 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10245,15 +10382,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C668460"
-			(at 261.62 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Murata"
 			(at 261.62 67.31 0)
 			(effects
@@ -10265,6 +10393,15 @@
 		)
 		(property "Part Number" "LQW15AN15NG80D"
 			(at 261.62 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C668460"
+			(at 261.62 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10342,15 +10479,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C7500573"
-			(at 148.59 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "YXC Crystal Oscillators"
 			(at 148.59 118.11 90)
 			(effects
@@ -10361,6 +10489,15 @@
 			)
 		)
 		(property "Part Number" "XKHEL89CGI-112YLC-32.768K"
+			(at 148.59 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C7500573"
 			(at 148.59 118.11 90)
 			(effects
 				(font
@@ -10438,15 +10575,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C307452"
-			(at 248.92 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Samsung"
 			(at 248.92 106.68 0)
 			(effects
@@ -10457,6 +10585,15 @@
 			)
 		)
 		(property "Part Number" "CL05C821JB5NNNC"
+			(at 248.92 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C307452"
 			(at 248.92 106.68 0)
 			(effects
 				(font
@@ -10591,7 +10728,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100nF 50V X7R 0402 ±10% Capacitor"
+			(at 205.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 205.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL05B104KB54PNC"
+			(at 205.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C307331"
 			(at 205.74 50.8 0)
 			(effects
 				(font
@@ -10669,15 +10833,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C52923"
-			(at 314.96 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Samsung"
 			(at 314.96 91.44 0)
 			(effects
@@ -10688,6 +10843,15 @@
 			)
 		)
 		(property "Part Number" "CL05A105KA5NQNC"
+			(at 314.96 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C52923"
 			(at 314.96 91.44 0)
 			(effects
 				(font
@@ -10822,7 +10986,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "100kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402"
+			(at 278.13 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 278.13 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0402WGF1003TCE"
+			(at 278.13 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C25741"
 			(at 278.13 226.06 0)
 			(effects
 				(font
@@ -10966,15 +11157,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C52923"
-			(at 191.77 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Samsung"
 			(at 191.77 50.8 0)
 			(effects
@@ -10985,6 +11167,15 @@
 			)
 		)
 		(property "Part Number" "CL05A105KA5NQNC"
+			(at 191.77 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C52923"
 			(at 191.77 50.8 0)
 			(effects
 				(font
@@ -11013,9 +11204,9 @@
 		(at 256.54 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "cde6c952-5df7-43c7-8ab5-950be134875b")
 		(property "Reference" "J3"
 			(at 252.984 225.552 0)
@@ -11054,6 +11245,15 @@
 			)
 		)
 		(property "Description" "6-pin TC2030 connector for SWD programming"
+			(at 256.54 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" ""
 			(at 256.54 234.95 0)
 			(effects
 				(font
@@ -11143,15 +11343,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C1547"
-			(at 128.27 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 128.27 93.98 0)
 			(effects
@@ -11163,6 +11354,15 @@
 		)
 		(property "Part Number" "0402CG120J500NT"
 			(at 128.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C1547"
+			(at 128.27 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11237,15 +11437,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C2965582"
-			(at 140.97 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "YXC Crystal Oscillators"
 			(at 140.97 100.33 0)
 			(effects
@@ -11257,6 +11448,15 @@
 		)
 		(property "Part Number" "XL7EL89CKI-111YLC-32M"
 			(at 140.97 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C2965582"
+			(at 140.97 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11329,8 +11529,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "160mΩ DCR, 4.7nH, SRF 6GHz, 700mA, Q 8@100MHz 0402"
 			(at 254 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 254 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LQG15HS4N7S02D"
+			(at 254 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C86065"
+			(at 254 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11407,15 +11634,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C1546"
-			(at 260.35 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 260.35 106.68 0)
 			(effects
@@ -11426,6 +11644,15 @@
 			)
 		)
 		(property "Part Number" "0402CG101J500NT"
+			(at 260.35 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C1546"
 			(at 260.35 106.68 0)
 			(effects
 				(font
@@ -11690,7 +11917,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100nF 50V X7R 0402 ±10% Capacitor"
+			(at 281.94 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 281.94 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL05B104KB54PNC"
+			(at 281.94 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C307331"
 			(at 281.94 106.68 0)
 			(effects
 				(font
@@ -11824,7 +12078,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100nF 50V X7R 0402 ±10% Capacitor"
+			(at 233.68 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 233.68 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL05B104KB54PNC"
+			(at 233.68 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C307331"
 			(at 233.68 50.8 0)
 			(effects
 				(font
@@ -11903,15 +12184,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLC PN" "C1547"
-			(at 128.27 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 128.27 106.68 0)
 			(effects
@@ -11923,6 +12195,15 @@
 		)
 		(property "Part Number" "0402CG120J500NT"
 			(at 128.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB PN" "C1547"
+			(at 128.27 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
